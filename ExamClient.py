@@ -42,7 +42,7 @@ def take_exam(questions):
         print(f"  2) {question['option2']}")
         print(f"  3) {question['option3']}")
         print(f"  4) {question['option4']}")
-        answer = input("Enter your choice (option1/option2/option3/option4): ")
+        answer = input("Enter your choice (1/2/3/4): ")
         if answer == question['correctoption']:
             score += 1
 
